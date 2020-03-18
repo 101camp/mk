@@ -267,7 +267,7 @@ def pub(c):
     #recover(c)
 
     pu(c)
-    #ccname(c)
+    ccname(c)
     #sync4media(c)
     gh(c)
     ver(c)
