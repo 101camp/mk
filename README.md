@@ -1,8 +1,12 @@
 # Maker
 101camp course for Enjoy Maker ;-)
 
+
 ## bg.
 多年积累, 终于有了一门 软硬通吃 课程;
+
+
+蟒营创客课程官网发布
 
 ## goal
 
@@ -95,5 +99,6 @@
 
 ## logging:
 
-- 200319 ZQ cp as mk.101.camp
+- 200319 Samuche init.
+    + ZQ cp as mk.101.camp
 - 190721 ZQ init.
