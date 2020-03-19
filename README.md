@@ -1,9 +1,6 @@
-# django
-101camp course for Enjoy Django ;-)
-
 ## bg.
 
-班长多年积累, 终于有了一门纯 IT 技术课程;
+蟒营创客课程官网发布
 
 ## goal
 
@@ -12,7 +9,7 @@
 - 使用 github-pages 服务
 - 需要两个仓库的本地配合
     + 101camp/django        ~ 内容撰写
-    + 101camp/dj.101.camp   ~ 自动发布
+    + 101camp/mk.101.camp   ~ 自动发布
 
 
 ## process
@@ -22,8 +19,8 @@
 
     path/2/合适目录:
         +- django        ~ 内容撰写
-        |   +- site/    <- 链接到隔壁 ln -s ../dj.101.camp
-        +- dj.101.camp   ~ 自动发布
+        |   +- site/    <- 链接到隔壁 ln -s ../mk.101.camp
+        +- mk.101.camp   ~ 自动发布
 
 效果, 在 django 中:
 
@@ -37,7 +34,7 @@
         docs
         img
         mkdocs.yml
-        site -> ../dj.101.camp/
+        site -> ../mk.101.camp/
         tasks.py
 
 > 安装 invoke
@@ -81,7 +78,7 @@
 > 即自动完成一系列编译/整理/同步/发布/... 的行为
 
 
-[蟒营 Djnago 入门班](http://dj.101.camp/) 即可看到更新
+[蟒营 创客 入门班](http://mk.101.camp/) 即可看到更新
 
 包含其它功能有:
 
@@ -94,4 +91,4 @@
 
 ## logging:
 
-- 190721 ZQ init.
+- 200319 Samuche init.
