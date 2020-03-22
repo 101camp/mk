@@ -62,6 +62,10 @@
 
 以及相关模块, 可以用 `pip install -r requirements.txt` 批量安装
 
+> 200322 增补
+
+- 追加了依赖的 `mkdocs-bootswatch` 
+
 ### 发布
 > 对应 mk/docs 中修改文章后
 
@@ -84,6 +88,12 @@
          powded by pub101CAMP v.190721.2342
 
 > 即自动完成一系列编译/整理/同步/发布/... 的行为
+
+>> PS:
+
+- 参考: [.gitconfig](https://gitlab.com/pythonicamp/course/101camp0mk/-/blob/master/.gitlab/.gitconfig)
+- 使用了自定指令, 以免节省操作
+
 
 
 [蟒营™ Maker 入门班](http://mk.101.camp/) 即可看到更新
