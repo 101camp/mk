@@ -16,7 +16,7 @@ VER="pub4trigger v.200306.2142"
 #NOW=$(date +"%Y-%m-%d")
 
 PBIN=~/.pyenv/versions/DU363/bin
-SELF=~/Sites/101.camp/_running/django
+SELF=~/Sites/101.camp/_running/mk
 
 GIT=$( which git)
 PY=$PBIN/python

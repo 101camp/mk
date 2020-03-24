@@ -59,14 +59,10 @@ from invoke import task
 #from fabric.context_managers import cd
 from textwrap import dedent as dedentxt
 
-CAMPROOT = ''#os.environ.get("CAMPSITES_ROOT")
-CSITES = {'101':{'gl':'gl_101.camp'
-                , 'ghp':'zq_gh101camp'
-                , 'log':'dlog_gh_101camp'
-                }
-        , 'py':{'gl':'gl_py.101.camp'
-                , 'ghp':'zq_ghpy101camp'
-                , 'log':'dlog_gh_py101camp'
+CAMPROOT = os.environ.get("CAMPSITES_ROOT")
+CSITES = {'mk':{'gl':'mk'
+                , 'ghp':'mk.101.camp'
+                , 'log': None
                 }
         }
 
@@ -102,7 +98,7 @@ def sync4media(c):
     c.run('pwd')
 
 
-#@task 
+@task 
 def pl(c, site):
     '''$ inv pl [101|py] <- pull all relation repo.
     '''
@@ -133,7 +129,7 @@ def bu(c):
     c.run('pwd')
     c.run('mkdocs build', hide=False, warn=True)
 
-task 
+@task 
 def pu(c):
     '''push gl manuscript...
     '''
@@ -273,21 +269,3 @@ def pub(c):
     ver(c)
     
     return None
-
-    if TRIGGER:
-        print('auto deplo NOW:')
-        #return None
-        bu(c)
-        recover(c)
-
-        pu(c)
-        #ccname(c)
-        #sync4media(c)
-        gh(c, site)
-        ver(c)
-
-    else:
-        print('nothing need deploy')
-    
-
-
