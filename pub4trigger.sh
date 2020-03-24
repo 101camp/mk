@@ -38,6 +38,7 @@ cd $SELF
 #echo '' > _trigger/deploy.md
 
 inv -l
+inv pl mk
 inv pub 
 
 #=========================================================== action DONE
